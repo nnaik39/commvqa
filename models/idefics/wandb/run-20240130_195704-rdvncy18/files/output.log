@@ -1,0 +1,20 @@
+
+Loading checkpoint shards:   0%|                          | 0/2 [00:03<?, ?it/s]
+Traceback (most recent call last):
+  File "/juice2/scr2/nanditan/commvqa/idefics/eval_idefics.py", line 83, in <module>
+    model = IdeficsForVisionText2Text.from_pretrained(checkpoint, torch_dtype=torch.bfloat16).to(device)
+  File "/nlp/scr/nanditan/miniconda3/lib/python3.9/site-packages/transformers/modeling_utils.py", line 3307, in from_pretrained
+    ) = cls._load_pretrained_model(
+  File "/nlp/scr/nanditan/miniconda3/lib/python3.9/site-packages/transformers/modeling_utils.py", line 3724, in _load_pretrained_model
+    error_msgs += _load_state_dict_into_model(model_to_load, state_dict, start_prefix)
+  File "/nlp/scr/nanditan/miniconda3/lib/python3.9/site-packages/transformers/modeling_utils.py", line 571, in _load_state_dict_into_model
+    load(model_to_load, state_dict, prefix=start_prefix)
+  File "/nlp/scr/nanditan/miniconda3/lib/python3.9/site-packages/transformers/modeling_utils.py", line 569, in load
+    load(child, state_dict, prefix + name + ".")
+  File "/nlp/scr/nanditan/miniconda3/lib/python3.9/site-packages/transformers/modeling_utils.py", line 569, in load
+    load(child, state_dict, prefix + name + ".")
+  File "/nlp/scr/nanditan/miniconda3/lib/python3.9/site-packages/transformers/modeling_utils.py", line 565, in load
+    module._load_from_state_dict(*args)
+  File "/nlp/scr/nanditan/miniconda3/lib/python3.9/site-packages/torch/nn/modules/module.py", line 2040, in _load_from_state_dict
+    param.copy_(input_param)
+KeyboardInterrupt

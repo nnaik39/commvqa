@@ -1,0 +1,11 @@
+
+
+Loading checkpoint shards: 100%|██████████████████| 2/2 [00:02<00:00,  1.37s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Using sep_token, but it is not set yet.
+Using cls_token, but it is not set yet.
+Using mask_token, but it is not set yet.
+
+
+
+

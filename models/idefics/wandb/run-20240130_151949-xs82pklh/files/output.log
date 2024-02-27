@@ -1,0 +1,15 @@
+
+
+
+Loading checkpoint shards: 100%|█████████████████| 2/2 [03:21<00:00, 100.84s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Using sep_token, but it is not set yet.
+Using cls_token, but it is not set yet.
+Using mask_token, but it is not set yet.
+  0%|                                                  | 0/1215 [00:22<?, ?it/s]
+Traceback (most recent call last):
+  File "/juice2/scr2/nanditan/commvqa/idefics/eval_idefics.py", line 103, in <module>
+    'image': eval_datapoint['image'],
+  File "/juice2/scr2/nanditan/commvqa/idefics/eval_idefics.py", line 22, in evaluate_metrics
+    random.seed(i)
+NameError: name 'random' is not defined

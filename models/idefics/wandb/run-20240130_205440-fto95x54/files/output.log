@@ -1,0 +1,33 @@
+
+
+
+Loading checkpoint shards: 100%|██████████████████| 2/2 [00:04<00:00,  2.01s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Using sep_token, but it is not set yet.
+Using cls_token, but it is not set yet.
+Using mask_token, but it is not set yet.
+  0%|                                                  | 0/1215 [00:00<?, ?it/s]
+Refs  [[['there are not any other objects.', 'small fish', 'there are no other creatures or objects around the stingray']]]
+  0%|                                                  | 0/1215 [00:00<?, ?it/s]/nlp/scr/nanditan/miniconda3/lib/python3.9/site-packages/torch/utils/data/dataloader.py:557: UserWarning: This DataLoader will create 8 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+100%|█████████████████████████████████████████████| 1/1 [00:03<00:00,  3.14s/it]
+/juice2/scr2/nanditan/commvqa/idefics/clipscore_helper.py:167: UserWarning: due to a numerical instability, new numpy normalization is slightly different than paper results. to exactly replicate paper results, please use numpy version less than 1.21, e.g., 1.20.3.
+  warnings.warn(
+/juice2/scr2/nanditan/commvqa/idefics/clipscore_helper.py:196: UserWarning: due to a numerical instability, new numpy normalization is slightly different than paper results. to exactly replicate paper results, please use numpy version less than 1.21, e.g., 1.20.3.
+  warnings.warn(
+1it [00:00, 5629.94it/s]
+  0%|                                        | 1/1215 [00:24<8:24:25, 24.93s/it]
+Refs  [[['there are not any other objects.', 'small fish', 'there are no other creatures or objects around the stingray'], ['it appears to be an electric', 'it seems to be acoustic.', 'the guitar appears to be acoustic.']]]
+  0%|                                       | 1/1215 [00:33<11:19:12, 33.57s/it]
+Traceback (most recent call last):
+  File "/juice2/scr2/nanditan/commvqa/idefics/eval_idefics.py", line 148, in <module>
+    metrics_dict = evaluate_metrics(refs, [generated_answer], ['../' + image_path], 1)
+  File "/juice2/scr2/nanditan/commvqa/idefics/eval_idefics.py", line 72, in evaluate_metrics
+    metrics_dict = get_all_metrics(refs, cands)
+  File "/juice2/scr2/nanditan/commvqa/idefics/clipscore_helper.py", line 40, in get_all_metrics
+    overall, per_cap = pycoco_eval(scorer, refs, cands)
+  File "/juice2/scr2/nanditan/commvqa/idefics/clipscore_helper.py", line 77, in pycoco_eval
+    average_score, scores = scorer.compute_score(refs, cands)
+  File "/nlp/scr/nanditan/miniconda3/lib/python3.9/site-packages/pycocoevalcap/bleu/bleu.py", line 23, in compute_score
+    assert(gts.keys() == res.keys())
+AssertionError

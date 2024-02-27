@@ -1,0 +1,22 @@
+
+
+
+Loading checkpoint shards: 100%|██████████████████| 2/2 [02:34<00:00, 77.26s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Using sep_token, but it is not set yet.
+Using cls_token, but it is not set yet.
+Using mask_token, but it is not set yet.
+
+
+
+
+
+
+
+
+
+  1%|▎                                      | 10/1215 [01:22<2:44:58,  8.21s/it]
+Traceback (most recent call last):
+  File "/juice2/scr2/nanditan/commvqa/idefics/eval_idefics.py", line 203, in <module>
+    os.mkdir("results/" + writeFile)
+FileExistsError: [Errno 17] File exists: 'results/idefics_baseline'

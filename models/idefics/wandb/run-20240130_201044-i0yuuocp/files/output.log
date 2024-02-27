@@ -1,0 +1,27 @@
+
+
+
+Loading checkpoint shards: 100%|██████████████████| 2/2 [00:04<00:00,  2.03s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Using sep_token, but it is not set yet.
+Using cls_token, but it is not set yet.
+Using mask_token, but it is not set yet.
+  0%|                                                  | 0/1215 [00:09<?, ?it/s]
+Traceback (most recent call last):
+  File "/juice2/scr2/nanditan/commvqa/idefics/eval_idefics.py", line 139, in <module>
+    metrics_dict = evaluate_metrics([refs], [generated_answer], ['../' + image_path], 1)
+  File "/juice2/scr2/nanditan/commvqa/idefics/eval_idefics.py", line 63, in evaluate_metrics
+    metrics_dict = get_all_metrics([refs], [cands])
+  File "/juice2/scr2/nanditan/commvqa/idefics/clipscore_helper.py", line 40, in get_all_metrics
+    overall, per_cap = pycoco_eval(scorer, refs, cands)
+  File "/juice2/scr2/nanditan/commvqa/idefics/clipscore_helper.py", line 76, in pycoco_eval
+    refs, cands = tokenize(refs, cands)
+  File "/juice2/scr2/nanditan/commvqa/idefics/clipscore_helper.py", line 64, in tokenize
+    refs = tokenizer.tokenize(refs)
+  File "/nlp/scr/nanditan/miniconda3/lib/python3.9/site-packages/pycocoevalcap/tokenizer/ptbtokenizer.py", line 37, in tokenize
+    sentences = '\n'.join([c['caption'].replace('\n', ' ') for k, v in captions_for_image.items() for c in v])
+  File "/nlp/scr/nanditan/miniconda3/lib/python3.9/site-packages/pycocoevalcap/tokenizer/ptbtokenizer.py", line 37, in <listcomp>
+    sentences = '\n'.join([c['caption'].replace('\n', ' ') for k, v in captions_for_image.items() for c in v])
+AttributeError: 'list' object has no attribute 'replace'
+Refs  [[['there are not any other objects.', 'small fish', 'there are no other creatures or objects around the stingray']]]
+Cands  ['']

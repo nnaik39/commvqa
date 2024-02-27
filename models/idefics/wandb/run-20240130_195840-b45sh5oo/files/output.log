@@ -1,0 +1,13 @@
+
+
+
+Loading checkpoint shards: 100%|██████████████████| 2/2 [02:32<00:00, 76.20s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Using sep_token, but it is not set yet.
+Using cls_token, but it is not set yet.
+Using mask_token, but it is not set yet.
+  0%|                                                  | 0/1215 [00:13<?, ?it/s]
+Traceback (most recent call last):
+  File "/juice2/scr2/nanditan/commvqa/idefics/eval_idefics.py", line 142, in <module>
+    'metrics': metrics_dict
+NameError: name 'metrics_dict' is not defined

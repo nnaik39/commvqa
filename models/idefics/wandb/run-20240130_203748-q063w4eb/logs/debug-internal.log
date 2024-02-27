@@ -1,0 +1,236 @@
+2024-01-30 20:37:48,057 INFO    StreamThr :310246 [internal.py:wandb_internal():86] W&B internal server running at pid: 310246, started at: 2024-01-30 20:37:48.056728
+2024-01-30 20:37:48,063 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: status
+2024-01-30 20:37:48,065 INFO    WriterThread:310246 [datastore.py:open_for_write():85] open: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/run-q063w4eb.wandb
+2024-01-30 20:37:48,069 DEBUG   SenderThread:310246 [sender.py:send():380] send: header
+2024-01-30 20:37:48,084 DEBUG   SenderThread:310246 [sender.py:send():380] send: run
+2024-01-30 20:37:48,286 INFO    SenderThread:310246 [dir_watcher.py:__init__():211] watching files in: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files
+2024-01-30 20:37:48,287 INFO    SenderThread:310246 [sender.py:_start_run_threads():1124] run started: q063w4eb with start time 1706675868.058525
+2024-01-30 20:37:48,303 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: check_version
+2024-01-30 20:37:48,303 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: check_version
+2024-01-30 20:37:48,375 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: run_start
+2024-01-30 20:37:48,405 DEBUG   HandlerThread:310246 [system_info.py:__init__():32] System info init
+2024-01-30 20:37:48,405 DEBUG   HandlerThread:310246 [system_info.py:__init__():47] System info init done
+2024-01-30 20:37:48,405 INFO    HandlerThread:310246 [system_monitor.py:start():194] Starting system monitor
+2024-01-30 20:37:48,406 INFO    SystemMonitor:310246 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-30 20:37:48,406 INFO    HandlerThread:310246 [system_monitor.py:probe():214] Collecting system info
+2024-01-30 20:37:48,421 INFO    SystemMonitor:310246 [interfaces.py:start():190] Started cpu monitoring
+2024-01-30 20:37:48,422 INFO    SystemMonitor:310246 [interfaces.py:start():190] Started disk monitoring
+2024-01-30 20:37:48,424 INFO    SystemMonitor:310246 [interfaces.py:start():190] Started gpu monitoring
+2024-01-30 20:37:48,425 INFO    SystemMonitor:310246 [interfaces.py:start():190] Started memory monitoring
+2024-01-30 20:37:48,426 INFO    SystemMonitor:310246 [interfaces.py:start():190] Started network monitoring
+2024-01-30 20:37:48,430 DEBUG   HandlerThread:310246 [system_info.py:probe():196] Probing system
+2024-01-30 20:37:48,435 DEBUG   HandlerThread:310246 [system_info.py:_probe_git():181] Probing git
+2024-01-30 20:37:48,450 DEBUG   HandlerThread:310246 [system_info.py:_probe_git():189] Probing git done
+2024-01-30 20:37:48,451 DEBUG   HandlerThread:310246 [system_info.py:probe():244] Probing system done
+2024-01-30 20:37:48,451 DEBUG   HandlerThread:310246 [system_monitor.py:probe():223] {'os': 'Linux-5.4.0-137-generic-x86_64-with-glibc2.31', 'python': '3.9.12', 'heartbeatAt': '2024-01-31T04:37:48.430987', 'startedAt': '2024-01-31T04:37:48.044622', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/juice2/scr2/nanditan/commvqa/idefics/eval_idefics.py', 'codePathLocal': 'eval_idefics.py', 'codePath': 'idefics/eval_idefics.py', 'git': {'remote': 'https://github.com/nnaik39/commvqa.git', 'commit': '5c0f8cef9e095832b404fd0250735920678e3243'}, 'email': None, 'root': '/juice2/scr2/nanditan/commvqa', 'host': 'jagupard35.stanford.edu', 'username': 'nanditan', 'executable': '/nlp/scr/nanditan/miniconda3/bin/python3', 'cpu_count': 48, 'cpu_count_logical': 96, 'cpu_freq': {'current': 1801.0266250000002, 'min': 1500.0, 'max': 2850.0}, 'cpu_freq_per_core': [{'current': 3999.501, 'min': 1500.0, 'max': 2850.0}, {'current': 3219.627, 'min': 1500.0, 'max': 2850.0}, {'current': 3204.763, 'min': 1500.0, 'max': 2850.0}, {'current': 3212.228, 'min': 1500.0, 'max': 2850.0}, {'current': 3217.734, 'min': 1500.0, 'max': 2850.0}, {'current': 3204.85, 'min': 1500.0, 'max': 2850.0}, {'current': 1498.102, 'min': 1500.0, 'max': 2850.0}, {'current': 1496.228, 'min': 1500.0, 'max': 2850.0}, {'current': 1496.933, 'min': 1500.0, 'max': 2850.0}, {'current': 1494.738, 'min': 1500.0, 'max': 2850.0}, {'current': 1497.405, 'min': 1500.0, 'max': 2850.0}, {'current': 1499.584, 'min': 1500.0, 'max': 2850.0}, {'current': 3207.413, 'min': 1500.0, 'max': 2850.0}, {'current': 3170.17, 'min': 1500.0, 'max': 2850.0}, {'current': 3113.676, 'min': 1500.0, 'max': 2850.0}, {'current': 3111.073, 'min': 1500.0, 'max': 2850.0}, {'current': 4000.814, 'min': 1500.0, 'max': 2850.0}, {'current': 4001.31, 'min': 1500.0, 'max': 2850.0}, {'current': 1497.592, 'min': 1500.0, 'max': 2850.0}, {'current': 1495.886, 'min': 1500.0, 'max': 2850.0}, {'current': 1495.599, 'min': 1500.0, 'max': 2850.0}, {'current': 1496.426, 'min': 1500.0, 'max': 2850.0}, {'current': 1496.375, 'min': 1500.0, 'max': 2850.0}, {'current': 1495.565, 'min': 1500.0, 'max': 2850.0}, {'current': 1496.579, 'min': 1500.0, 'max': 2850.0}, {'current': 1498.276, 'min': 1500.0, 'max': 2850.0}, {'current': 1495.879, 'min': 1500.0, 'max': 2850.0}, {'current': 1496.933, 'min': 1500.0, 'max': 2850.0}, {'current': 1496.738, 'min': 1500.0, 'max': 2850.0}, {'current': 1496.74, 'min': 1500.0, 'max': 2850.0}, {'current': 1497.67, 'min': 1500.0, 'max': 2850.0}, {'current': 1496.081, 'min': 1500.0, 'max': 2850.0}, {'current': 1496.833, 'min': 1500.0, 'max': 2850.0}, {'current': 1499.596, 'min': 1500.0, 'max': 2850.0}, {'current': 1497.487, 'min': 1500.0, 'max': 2850.0}, {'current': 1498.316, 'min': 1500.0, 'max': 2850.0}, {'current': 1499.284, 'min': 1500.0, 'max': 2850.0}, {'current': 1496.222, 'min': 1500.0, 'max': 2850.0}, {'current': 1496.519, 'min': 1500.0, 'max': 2850.0}, {'current': 1498.905, 'min': 1500.0, 'max': 2850.0}, {'current': 1499.481, 'min': 1500.0, 'max': 2850.0}, {'current': 1495.977, 'min': 1500.0, 'max': 2850.0}, {'current': 1495.959, 'min': 1500.0, 'max': 2850.0}, {'current': 1496.144, 'min': 1500.0, 'max': 2850.0}, {'current': 1497.05, 'min': 1500.0, 'max': 2850.0}, {'current': 1496.544, 'min': 1500.0, 'max': 2850.0}, {'current': 1498.056, 'min': 1500.0, 'max': 2850.0}, {'current': 1497.284, 'min': 1500.0, 'max': 2850.0}, {'current': 3988.225, 'min': 1500.0, 'max': 2850.0}, {'current': 3115.105, 'min': 1500.0, 'max': 2850.0}, {'current': 3114.6, 'min': 1500.0, 'max': 2850.0}, {'current': 3122.835, 'min': 1500.0, 'max': 2850.0}, {'current': 3122.693, 'min': 1500.0, 'max': 2850.0}, {'current': 3114.076, 'min': 1500.0, 'max': 2850.0}, {'current': 1499.058, 'min': 1500.0, 'max': 2850.0}, {'current': 1497.797, 'min': 1500.0, 'max': 2850.0}, {'current': 1496.817, 'min': 1500.0, 'max': 2850.0}, {'current': 1497.95, 'min': 1500.0, 'max': 2850.0}, {'current': 1496.69, 'min': 1500.0, 'max': 2850.0}, {'current': 1498.496, 'min': 1500.0, 'max': 2850.0}, {'current': 3068.9, 'min': 1500.0, 'max': 2850.0}, {'current': 3070.128, 'min': 1500.0, 'max': 2850.0}, {'current': 3115.336, 'min': 1500.0, 'max': 2850.0}, {'current': 3085.586, 'min': 1500.0, 'max': 2850.0}, {'current': 4000.698, 'min': 1500.0, 'max': 2850.0}, {'current': 4001.194, 'min': 1500.0, 'max': 2850.0}, {'current': 1495.758, 'min': 1500.0, 'max': 2850.0}, {'current': 1497.56, 'min': 1500.0, 'max': 2850.0}, {'current': 1499.665, 'min': 1500.0, 'max': 2850.0}, {'current': 1497.377, 'min': 1500.0, 'max': 2850.0}, {'current': 1494.354, 'min': 1500.0, 'max': 2850.0}, {'current': 1497.968, 'min': 1500.0, 'max': 2850.0}, {'current': 1497.93, 'min': 1500.0, 'max': 2850.0}, {'current': 1495.73, 'min': 1500.0, 'max': 2850.0}, {'current': 1476.89, 'min': 1500.0, 'max': 2850.0}, {'current': 1497.653, 'min': 1500.0, 'max': 2850.0}, {'current': 1497.075, 'min': 1500.0, 'max': 2850.0}, {'current': 1496.684, 'min': 1500.0, 'max': 2850.0}, {'current': 1497.208, 'min': 1500.0, 'max': 2850.0}, {'current': 1496.964, 'min': 1500.0, 'max': 2850.0}, {'current': 1496.652, 'min': 1500.0, 'max': 2850.0}, {'current': 1497.163, 'min': 1500.0, 'max': 2850.0}, {'current': 1498.723, 'min': 1500.0, 'max': 2850.0}, {'current': 1499.834, 'min': 1500.0, 'max': 2850.0}, {'current': 1497.482, 'min': 1500.0, 'max': 2850.0}, {'current': 1498.266, 'min': 1500.0, 'max': 2850.0}, {'current': 1496.658, 'min': 1500.0, 'max': 2850.0}, {'current': 1497.914, 'min': 1500.0, 'max': 2850.0}, {'current': 1497.198, 'min': 1500.0, 'max': 2850.0}, {'current': 1497.38, 'min': 1500.0, 'max': 2850.0}, {'current': 1467.09, 'min': 1500.0, 'max': 2850.0}, {'current': 1469.374, 'min': 1500.0, 'max': 2850.0}, {'current': 1498.989, 'min': 1500.0, 'max': 2850.0}, {'current': 1499.049, 'min': 1500.0, 'max': 2850.0}, {'current': 1497.148, 'min': 1500.0, 'max': 2850.0}, {'current': 1497.633, 'min': 1500.0, 'max': 2850.0}], 'disk': {'/': {'total': 218.87727737426758, 'used': 158.4156494140625}}, 'gpu': 'NVIDIA RTX A6000', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA RTX A6000', 'memory_total': 51527024640}], 'memory': {'total': 503.7493896484375}}
+2024-01-30 20:37:48,451 INFO    HandlerThread:310246 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-30 20:37:48,451 INFO    HandlerThread:310246 [system_monitor.py:probe():227] Publishing system info
+2024-01-30 20:37:48,451 DEBUG   HandlerThread:310246 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-01-30 20:37:48,452 DEBUG   HandlerThread:310246 [system_info.py:_save_pip():68] Saving pip packages done
+2024-01-30 20:37:48,453 DEBUG   HandlerThread:310246 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-01-30 20:37:49,290 INFO    Thread-12 :310246 [dir_watcher.py:_on_file_created():271] file/dir created: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/conda-environment.yaml
+2024-01-30 20:37:49,291 INFO    Thread-12 :310246 [dir_watcher.py:_on_file_created():271] file/dir created: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/requirements.txt
+2024-01-30 20:37:52,703 DEBUG   HandlerThread:310246 [system_info.py:_save_conda():87] Saving conda packages done
+2024-01-30 20:37:52,706 INFO    HandlerThread:310246 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-30 20:37:52,711 DEBUG   SenderThread:310246 [sender.py:send():380] send: files
+2024-01-30 20:37:52,711 INFO    SenderThread:310246 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2024-01-30 20:37:52,724 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 20:37:52,724 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: stop_status
+2024-01-30 20:37:52,729 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 20:37:52,879 DEBUG   SenderThread:310246 [sender.py:send():380] send: telemetry
+2024-01-30 20:37:53,051 INFO    wandb-upload_0:310246 [upload_job.py:push():131] Uploaded file /tmp/nanditan/tmpvkqirbs9wandb/i9iexwgi-wandb-metadata.json
+2024-01-30 20:37:53,291 INFO    Thread-12 :310246 [dir_watcher.py:_on_file_modified():288] file/dir modified: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/conda-environment.yaml
+2024-01-30 20:37:53,291 INFO    Thread-12 :310246 [dir_watcher.py:_on_file_created():271] file/dir created: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/wandb-metadata.json
+2024-01-30 20:37:53,880 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 20:37:58,880 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 20:38:03,881 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 20:38:07,724 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 20:38:07,725 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: stop_status
+2024-01-30 20:38:07,727 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 20:38:09,873 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 20:38:14,874 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 20:38:19,879 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 20:38:20,310 INFO    Thread-12 :310246 [dir_watcher.py:_on_file_modified():288] file/dir modified: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/config.yaml
+2024-01-30 20:38:22,725 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 20:38:22,725 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 20:38:22,725 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: stop_status
+2024-01-30 20:38:25,809 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 20:38:30,810 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 20:38:35,811 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 20:38:37,724 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 20:38:37,725 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: stop_status
+2024-01-30 20:38:37,766 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 20:38:40,844 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 20:38:45,845 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 20:38:48,426 DEBUG   SystemMonitor:310246 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-30 20:38:48,428 DEBUG   SenderThread:310246 [sender.py:send():380] send: stats
+2024-01-30 20:38:51,141 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 20:38:51,333 INFO    Thread-12 :310246 [dir_watcher.py:_on_file_created():271] file/dir created: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/output.log
+2024-01-30 20:38:52,724 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 20:38:52,724 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: stop_status
+2024-01-30 20:38:52,727 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 20:38:53,335 INFO    Thread-12 :310246 [dir_watcher.py:_on_file_modified():288] file/dir modified: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/output.log
+2024-01-30 20:38:55,337 INFO    Thread-12 :310246 [dir_watcher.py:_on_file_modified():288] file/dir modified: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/output.log
+2024-01-30 20:38:56,223 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 20:38:57,339 INFO    Thread-12 :310246 [dir_watcher.py:_on_file_modified():288] file/dir modified: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/output.log
+2024-01-30 20:38:59,340 INFO    Thread-12 :310246 [dir_watcher.py:_on_file_modified():288] file/dir modified: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/output.log
+2024-01-30 20:39:01,240 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 20:39:06,241 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 20:39:07,725 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 20:39:07,726 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: stop_status
+2024-01-30 20:39:07,728 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 20:39:10,348 INFO    Thread-12 :310246 [dir_watcher.py:_on_file_modified():288] file/dir modified: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/output.log
+2024-01-30 20:39:11,799 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 20:39:17,353 INFO    Thread-12 :310246 [dir_watcher.py:_on_file_modified():288] file/dir modified: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/output.log
+2024-01-30 20:39:17,690 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 20:39:18,429 DEBUG   SenderThread:310246 [sender.py:send():380] send: stats
+2024-01-30 20:39:21,356 INFO    Thread-12 :310246 [dir_watcher.py:_on_file_modified():288] file/dir modified: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/output.log
+2024-01-30 20:39:22,863 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 20:39:22,863 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 20:39:22,864 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: stop_status
+2024-01-30 20:39:22,943 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 20:39:23,358 INFO    Thread-12 :310246 [dir_watcher.py:_on_file_modified():288] file/dir modified: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/output.log
+2024-01-30 20:39:25,828 DEBUG   SenderThread:310246 [sender.py:send():380] send: exit
+2024-01-30 20:39:25,829 INFO    SenderThread:310246 [sender.py:send_exit():585] handling exit code: 1
+2024-01-30 20:39:25,829 INFO    SenderThread:310246 [sender.py:send_exit():587] handling runtime: 97
+2024-01-30 20:39:25,843 INFO    SenderThread:310246 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-30 20:39:25,860 INFO    SenderThread:310246 [sender.py:send_exit():593] send defer
+2024-01-30 20:39:25,860 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: defer
+2024-01-30 20:39:25,860 INFO    HandlerThread:310246 [handler.py:handle_request_defer():172] handle defer: 0
+2024-01-30 20:39:25,860 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: defer
+2024-01-30 20:39:25,860 INFO    SenderThread:310246 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-01-30 20:39:25,860 INFO    SenderThread:310246 [sender.py:transition_state():613] send defer: 1
+2024-01-30 20:39:25,861 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: defer
+2024-01-30 20:39:25,861 INFO    HandlerThread:310246 [handler.py:handle_request_defer():172] handle defer: 1
+2024-01-30 20:39:25,861 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: defer
+2024-01-30 20:39:25,861 INFO    SenderThread:310246 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-01-30 20:39:25,861 INFO    SenderThread:310246 [sender.py:transition_state():613] send defer: 2
+2024-01-30 20:39:25,861 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: defer
+2024-01-30 20:39:25,861 INFO    HandlerThread:310246 [handler.py:handle_request_defer():172] handle defer: 2
+2024-01-30 20:39:25,861 INFO    HandlerThread:310246 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-30 20:39:25,862 DEBUG   SystemMonitor:310246 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-30 20:39:25,862 INFO    HandlerThread:310246 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-30 20:39:25,862 DEBUG   SystemMonitor:310246 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-30 20:39:25,863 INFO    HandlerThread:310246 [interfaces.py:finish():202] Joined disk monitor
+2024-01-30 20:39:25,930 INFO    HandlerThread:310246 [interfaces.py:finish():202] Joined gpu monitor
+2024-01-30 20:39:25,931 INFO    HandlerThread:310246 [interfaces.py:finish():202] Joined memory monitor
+2024-01-30 20:39:25,931 INFO    HandlerThread:310246 [interfaces.py:finish():202] Joined network monitor
+2024-01-30 20:39:25,931 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: defer
+2024-01-30 20:39:25,931 INFO    SenderThread:310246 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-01-30 20:39:25,931 INFO    SenderThread:310246 [sender.py:transition_state():613] send defer: 3
+2024-01-30 20:39:25,931 DEBUG   SenderThread:310246 [sender.py:send():380] send: stats
+2024-01-30 20:39:25,931 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: defer
+2024-01-30 20:39:25,932 INFO    HandlerThread:310246 [handler.py:handle_request_defer():172] handle defer: 3
+2024-01-30 20:39:25,932 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: defer
+2024-01-30 20:39:25,932 INFO    SenderThread:310246 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-01-30 20:39:25,932 INFO    SenderThread:310246 [sender.py:transition_state():613] send defer: 4
+2024-01-30 20:39:25,932 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: defer
+2024-01-30 20:39:25,932 INFO    HandlerThread:310246 [handler.py:handle_request_defer():172] handle defer: 4
+2024-01-30 20:39:25,932 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: defer
+2024-01-30 20:39:25,932 INFO    SenderThread:310246 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-01-30 20:39:25,932 INFO    SenderThread:310246 [sender.py:transition_state():613] send defer: 5
+2024-01-30 20:39:25,932 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: defer
+2024-01-30 20:39:25,932 INFO    HandlerThread:310246 [handler.py:handle_request_defer():172] handle defer: 5
+2024-01-30 20:39:25,932 DEBUG   SenderThread:310246 [sender.py:send():380] send: summary
+2024-01-30 20:39:25,933 INFO    SenderThread:310246 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-30 20:39:25,934 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: defer
+2024-01-30 20:39:25,934 INFO    SenderThread:310246 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-01-30 20:39:25,934 INFO    SenderThread:310246 [sender.py:transition_state():613] send defer: 6
+2024-01-30 20:39:25,934 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: defer
+2024-01-30 20:39:25,934 INFO    HandlerThread:310246 [handler.py:handle_request_defer():172] handle defer: 6
+2024-01-30 20:39:25,934 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: defer
+2024-01-30 20:39:25,934 INFO    SenderThread:310246 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-01-30 20:39:25,934 INFO    SenderThread:310246 [sender.py:transition_state():613] send defer: 7
+2024-01-30 20:39:25,934 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 20:39:25,934 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: defer
+2024-01-30 20:39:25,934 INFO    HandlerThread:310246 [handler.py:handle_request_defer():172] handle defer: 7
+2024-01-30 20:39:25,934 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: defer
+2024-01-30 20:39:25,934 INFO    SenderThread:310246 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-01-30 20:39:26,360 INFO    Thread-12 :310246 [dir_watcher.py:_on_file_created():271] file/dir created: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/wandb-summary.json
+2024-01-30 20:39:26,829 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-30 20:39:27,362 INFO    Thread-12 :310246 [dir_watcher.py:_on_file_modified():288] file/dir modified: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/output.log
+2024-01-30 20:39:27,416 INFO    SenderThread:310246 [sender.py:transition_state():613] send defer: 8
+2024-01-30 20:39:27,416 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: poll_exit
+2024-01-30 20:39:27,417 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: defer
+2024-01-30 20:39:27,417 INFO    HandlerThread:310246 [handler.py:handle_request_defer():172] handle defer: 8
+2024-01-30 20:39:27,417 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: defer
+2024-01-30 20:39:27,417 INFO    SenderThread:310246 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-01-30 20:39:27,418 INFO    SenderThread:310246 [job_builder.py:build():298] Attempting to build job artifact
+2024-01-30 20:39:27,419 INFO    SenderThread:310246 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-01-30 20:39:27,485 INFO    SenderThread:310246 [job_builder.py:build():404] adding wandb-job metadata file
+2024-01-30 20:39:27,500 INFO    SenderThread:310246 [sender.py:transition_state():613] send defer: 9
+2024-01-30 20:39:27,500 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: defer
+2024-01-30 20:39:27,501 DEBUG   SenderThread:310246 [sender.py:send():380] send: artifact
+2024-01-30 20:39:27,501 INFO    HandlerThread:310246 [handler.py:handle_request_defer():172] handle defer: 9
+2024-01-30 20:39:27,830 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-30 20:39:27,931 INFO    SenderThread:310246 [sender.py:send_artifact():1458] sent artifact job-https___github.com_nnaik39_commvqa.git_idefics_eval_idefics.py - {'id': 'QXJ0aWZhY3Q6NzA2ODI2OTUz', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzNDkwNzc0NA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzA3Mjk4MDU4', 'versionIndex': 1}}}
+2024-01-30 20:39:27,932 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: defer
+2024-01-30 20:39:27,932 INFO    SenderThread:310246 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-01-30 20:39:27,932 INFO    SenderThread:310246 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-30 20:39:28,364 INFO    SenderThread:310246 [dir_watcher.py:_on_file_modified():288] file/dir modified: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/output.log
+2024-01-30 20:39:28,364 INFO    SenderThread:310246 [dir_watcher.py:finish():388] scan: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files
+2024-01-30 20:39:28,365 INFO    SenderThread:310246 [dir_watcher.py:finish():402] scan save: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/output.log output.log
+2024-01-30 20:39:28,365 INFO    SenderThread:310246 [dir_watcher.py:finish():402] scan save: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/wandb-metadata.json wandb-metadata.json
+2024-01-30 20:39:28,365 INFO    SenderThread:310246 [dir_watcher.py:finish():402] scan save: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/config.yaml config.yaml
+2024-01-30 20:39:28,369 INFO    SenderThread:310246 [dir_watcher.py:finish():402] scan save: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/conda-environment.yaml conda-environment.yaml
+2024-01-30 20:39:28,370 INFO    SenderThread:310246 [dir_watcher.py:finish():402] scan save: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/requirements.txt requirements.txt
+2024-01-30 20:39:28,374 INFO    SenderThread:310246 [dir_watcher.py:finish():402] scan save: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/wandb-summary.json wandb-summary.json
+2024-01-30 20:39:28,379 INFO    SenderThread:310246 [sender.py:transition_state():613] send defer: 10
+2024-01-30 20:39:28,379 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: poll_exit
+2024-01-30 20:39:28,379 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: defer
+2024-01-30 20:39:28,382 INFO    HandlerThread:310246 [handler.py:handle_request_defer():172] handle defer: 10
+2024-01-30 20:39:28,383 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: defer
+2024-01-30 20:39:28,383 INFO    SenderThread:310246 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-01-30 20:39:28,383 INFO    SenderThread:310246 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-30 20:39:28,612 INFO    wandb-upload_0:310246 [upload_job.py:push():131] Uploaded file /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/output.log
+2024-01-30 20:39:28,640 INFO    wandb-upload_1:310246 [upload_job.py:push():131] Uploaded file /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/config.yaml
+2024-01-30 20:39:28,669 INFO    wandb-upload_4:310246 [upload_job.py:push():131] Uploaded file /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/wandb-summary.json
+2024-01-30 20:39:28,680 INFO    wandb-upload_2:310246 [upload_job.py:push():131] Uploaded file /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/conda-environment.yaml
+2024-01-30 20:39:28,691 INFO    wandb-upload_3:310246 [upload_job.py:push():131] Uploaded file /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/files/requirements.txt
+2024-01-30 20:39:28,830 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-30 20:39:28,831 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: poll_exit
+2024-01-30 20:39:28,892 INFO    Thread-11 :310246 [sender.py:transition_state():613] send defer: 11
+2024-01-30 20:39:28,892 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: defer
+2024-01-30 20:39:28,892 INFO    HandlerThread:310246 [handler.py:handle_request_defer():172] handle defer: 11
+2024-01-30 20:39:28,893 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: defer
+2024-01-30 20:39:28,893 INFO    SenderThread:310246 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-01-30 20:39:28,893 INFO    SenderThread:310246 [file_pusher.py:join():181] waiting for file pusher
+2024-01-30 20:39:28,893 INFO    SenderThread:310246 [sender.py:transition_state():613] send defer: 12
+2024-01-30 20:39:28,893 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: defer
+2024-01-30 20:39:28,893 INFO    HandlerThread:310246 [handler.py:handle_request_defer():172] handle defer: 12
+2024-01-30 20:39:28,893 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: defer
+2024-01-30 20:39:28,893 INFO    SenderThread:310246 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-01-30 20:39:28,893 INFO    SenderThread:310246 [file_stream.py:finish():595] file stream finish called
+2024-01-30 20:39:29,146 INFO    SenderThread:310246 [file_stream.py:finish():599] file stream finish is done
+2024-01-30 20:39:29,146 INFO    SenderThread:310246 [sender.py:transition_state():613] send defer: 13
+2024-01-30 20:39:29,147 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: defer
+2024-01-30 20:39:29,147 INFO    HandlerThread:310246 [handler.py:handle_request_defer():172] handle defer: 13
+2024-01-30 20:39:29,147 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: defer
+2024-01-30 20:39:29,147 INFO    SenderThread:310246 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-01-30 20:39:29,147 INFO    SenderThread:310246 [sender.py:transition_state():613] send defer: 14
+2024-01-30 20:39:29,148 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: defer
+2024-01-30 20:39:29,148 DEBUG   SenderThread:310246 [sender.py:send():380] send: final
+2024-01-30 20:39:29,148 INFO    HandlerThread:310246 [handler.py:handle_request_defer():172] handle defer: 14
+2024-01-30 20:39:29,148 DEBUG   SenderThread:310246 [sender.py:send():380] send: footer
+2024-01-30 20:39:29,148 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: defer
+2024-01-30 20:39:29,149 INFO    SenderThread:310246 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-01-30 20:39:29,149 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-30 20:39:29,149 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: poll_exit
+2024-01-30 20:39:29,150 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-30 20:39:29,150 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: poll_exit
+2024-01-30 20:39:29,150 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: server_info
+2024-01-30 20:39:29,151 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: server_info
+2024-01-30 20:39:29,151 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: get_summary
+2024-01-30 20:39:29,153 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: sampled_history
+2024-01-30 20:39:29,154 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 20:39:29,154 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: job_info
+2024-01-30 20:39:29,208 DEBUG   SenderThread:310246 [sender.py:send_request():407] send_request: job_info
+2024-01-30 20:39:29,209 INFO    MainThread:310246 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2024-01-30 20:39:29,209 INFO    MainThread:310246 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2024-01-30 20:39:29,209 INFO    MainThread:310246 [wandb_run.py:_footer_sync_info():3719] logging synced files
+2024-01-30 20:39:29,209 DEBUG   HandlerThread:310246 [handler.py:handle_request():146] handle_request: shutdown
+2024-01-30 20:39:29,210 INFO    HandlerThread:310246 [handler.py:finish():866] shutting down handler
+2024-01-30 20:39:30,155 INFO    WriterThread:310246 [datastore.py:close():294] close: /juice2/scr2/nanditan/commvqa/idefics/wandb/run-20240130_203748-q063w4eb/run-q063w4eb.wandb
+2024-01-30 20:39:30,209 INFO    SenderThread:310246 [sender.py:finish():1536] shutting down sender
+2024-01-30 20:39:30,209 INFO    SenderThread:310246 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-30 20:39:30,209 INFO    SenderThread:310246 [file_pusher.py:join():181] waiting for file pusher

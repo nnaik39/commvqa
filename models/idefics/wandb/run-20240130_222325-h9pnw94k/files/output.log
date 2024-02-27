@@ -1,0 +1,101 @@
+
+
+
+Loading checkpoint shards: 100%|██████████████████| 2/2 [02:37<00:00, 78.70s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Using sep_token, but it is not set yet.
+Using cls_token, but it is not set yet.
+Using mask_token, but it is not set yet.
+
+
+
+
+
+
+
+
+
+
+  1%|▎                                      | 10/1215 [01:25<2:52:39,  8.60s/it]
+Indices  [0, 1]
+Refs sample  [['test', 'test', 'test'], ['test', 'test', 'test']]
+Cands sample  ['', '']
+/nlp/scr/nanditan/miniconda3/lib/python3.9/site-packages/torch/utils/data/dataloader.py:557: UserWarning: This DataLoader will create 8 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+100%|█████████████████████████████████████████████| 1/1 [00:04<00:00,  4.04s/it]
+100%|█████████████████████████████████████████████| 1/1 [00:03<00:00,  3.87s/it]
+/juice2/scr2/nanditan/commvqa/idefics/clipscore_helper.py:167: UserWarning: due to a numerical instability, new numpy normalization is slightly different than paper results. to exactly replicate paper results, please use numpy version less than 1.21, e.g., 1.20.3.
+  warnings.warn(
+100%|█████████████████████████████████████████████| 1/1 [00:03<00:00,  3.75s/it]
+/juice2/scr2/nanditan/commvqa/idefics/clipscore_helper.py:196: UserWarning: due to a numerical instability, new numpy normalization is slightly different than paper results. to exactly replicate paper results, please use numpy version less than 1.21, e.g., 1.20.3.
+  warnings.warn(
+2it [00:00, 13981.01it/s]
+Metrics dict:  {'bleu': [0.0, 0.0, 0.0, 0.0], 'meteor': 0.0, 'rouge': 0.0, 'cider': 0.0, 'spice': 0.0, 'clipscore': 0.537109375, 'refclipscore': 0.6865234375, 'full_clipscore': 0.537109375, 'full_refclipscore': 0.6865234375}
+Indices  [0, 1]
+Refs sample  [['test', 'test', 'test'], ['test', 'test', 'test']]
+Cands sample  ['', '']
+/nlp/scr/nanditan/miniconda3/lib/python3.9/site-packages/torch/utils/data/dataloader.py:557: UserWarning: This DataLoader will create 8 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+100%|█████████████████████████████████████████████| 1/1 [00:04<00:00,  4.03s/it]
+100%|█████████████████████████████████████████████| 1/1 [00:03<00:00,  3.93s/it]
+/juice2/scr2/nanditan/commvqa/idefics/clipscore_helper.py:167: UserWarning: due to a numerical instability, new numpy normalization is slightly different than paper results. to exactly replicate paper results, please use numpy version less than 1.21, e.g., 1.20.3.
+  warnings.warn(
+100%|█████████████████████████████████████████████| 1/1 [00:03<00:00,  3.73s/it]
+/juice2/scr2/nanditan/commvqa/idefics/clipscore_helper.py:196: UserWarning: due to a numerical instability, new numpy normalization is slightly different than paper results. to exactly replicate paper results, please use numpy version less than 1.21, e.g., 1.20.3.
+  warnings.warn(
+2it [00:00, 9218.25it/s]
+Metrics dict:  {'bleu': [0.0, 0.0, 0.0, 0.0], 'meteor': 0.0, 'rouge': 0.0, 'cider': 0.0, 'spice': 0.0, 'clipscore': 0.537109375, 'refclipscore': 0.6865234375, 'full_clipscore': 0.537109375, 'full_refclipscore': 0.6865234375}
+Indices  [0, 1]
+Refs sample  [['test', 'test', 'test'], ['test', 'test', 'test']]
+Cands sample  ['', '']
+/nlp/scr/nanditan/miniconda3/lib/python3.9/site-packages/torch/utils/data/dataloader.py:557: UserWarning: This DataLoader will create 8 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+100%|█████████████████████████████████████████████| 1/1 [00:03<00:00,  3.85s/it]
+100%|█████████████████████████████████████████████| 1/1 [00:03<00:00,  3.99s/it]
+/juice2/scr2/nanditan/commvqa/idefics/clipscore_helper.py:167: UserWarning: due to a numerical instability, new numpy normalization is slightly different than paper results. to exactly replicate paper results, please use numpy version less than 1.21, e.g., 1.20.3.
+  warnings.warn(
+
+100%|█████████████████████████████████████████████| 1/1 [00:03<00:00,  3.90s/it]
+/juice2/scr2/nanditan/commvqa/idefics/clipscore_helper.py:196: UserWarning: due to a numerical instability, new numpy normalization is slightly different than paper results. to exactly replicate paper results, please use numpy version less than 1.21, e.g., 1.20.3.
+  warnings.warn(
+2it [00:00, 11229.73it/s]
+Metrics dict:  {'bleu': [0.0, 0.0, 0.0, 0.0], 'meteor': 0.0, 'rouge': 0.0, 'cider': 0.0, 'spice': 0.0, 'clipscore': 0.537109375, 'refclipscore': 0.6865234375, 'full_clipscore': 0.537109375, 'full_refclipscore': 0.6865234375}
+Indices  [0, 1]
+Refs sample  [['test', 'test', 'test'], ['test', 'test', 'test']]
+Cands sample  ['', '']
+/nlp/scr/nanditan/miniconda3/lib/python3.9/site-packages/torch/utils/data/dataloader.py:557: UserWarning: This DataLoader will create 8 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+100%|█████████████████████████████████████████████| 1/1 [00:03<00:00,  3.41s/it]
+100%|█████████████████████████████████████████████| 1/1 [00:03<00:00,  3.47s/it]
+/juice2/scr2/nanditan/commvqa/idefics/clipscore_helper.py:167: UserWarning: due to a numerical instability, new numpy normalization is slightly different than paper results. to exactly replicate paper results, please use numpy version less than 1.21, e.g., 1.20.3.
+  warnings.warn(
+100%|█████████████████████████████████████████████| 1/1 [00:04<00:00,  4.09s/it]
+/juice2/scr2/nanditan/commvqa/idefics/clipscore_helper.py:196: UserWarning: due to a numerical instability, new numpy normalization is slightly different than paper results. to exactly replicate paper results, please use numpy version less than 1.21, e.g., 1.20.3.
+  warnings.warn(
+2it [00:00, 13706.88it/s]
+Metrics dict:  {'bleu': [0.0, 0.0, 0.0, 0.0], 'meteor': 0.0, 'rouge': 0.0, 'cider': 0.0, 'spice': 0.0, 'clipscore': 0.537109375, 'refclipscore': 0.6865234375, 'full_clipscore': 0.537109375, 'full_refclipscore': 0.6865234375}
+Indices  [0, 1]
+Refs sample  [['test', 'test', 'test'], ['test', 'test', 'test']]
+Cands sample  ['', '']
+/nlp/scr/nanditan/miniconda3/lib/python3.9/site-packages/torch/utils/data/dataloader.py:557: UserWarning: This DataLoader will create 8 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+100%|█████████████████████████████████████████████| 1/1 [00:03<00:00,  3.77s/it]
+100%|█████████████████████████████████████████████| 1/1 [00:03<00:00,  3.65s/it]
+/juice2/scr2/nanditan/commvqa/idefics/clipscore_helper.py:167: UserWarning: due to a numerical instability, new numpy normalization is slightly different than paper results. to exactly replicate paper results, please use numpy version less than 1.21, e.g., 1.20.3.
+  warnings.warn(
+100%|█████████████████████████████████████████████| 1/1 [00:03<00:00,  3.79s/it]
+/juice2/scr2/nanditan/commvqa/idefics/clipscore_helper.py:196: UserWarning: due to a numerical instability, new numpy normalization is slightly different than paper results. to exactly replicate paper results, please use numpy version less than 1.21, e.g., 1.20.3.
+  warnings.warn(
+2it [00:00, 9811.24it/s]
+Traceback (most recent call last):
+  File "/juice2/scr2/nanditan/commvqa/idefics/eval_idefics.py", line 203, in <module>
+    metrics_per_context[context] = evaluate_metrics(
+  File "/juice2/scr2/nanditan/commvqa/idefics/eval_idefics.py", line 70, in evaluate_metrics
+    mean_metrics_dict[metric] = np.mean([metrics_dict_list[i][metric]] for i in metrics_dict_list)
+  File "/nlp/scr/nanditan/miniconda3/lib/python3.9/site-packages/numpy/core/fromnumeric.py", line 3504, in mean
+    return _methods._mean(a, axis=axis, dtype=dtype,
+  File "/nlp/scr/nanditan/miniconda3/lib/python3.9/site-packages/numpy/core/_methods.py", line 131, in _mean
+    ret = ret / rcount
+TypeError: unsupported operand type(s) for /: 'generator' and 'int'
+Metrics dict:  {'bleu': [0.0, 0.0, 0.0, 0.0], 'meteor': 0.0, 'rouge': 0.0, 'cider': 0.0, 'spice': 0.0, 'clipscore': 0.537109375, 'refclipscore': 0.6865234375, 'full_clipscore': 0.537109375, 'full_refclipscore': 0.6865234375}
+Metric  bleu

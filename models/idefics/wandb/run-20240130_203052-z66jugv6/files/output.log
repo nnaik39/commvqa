@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/juice2/scr2/nanditan/commvqa/idefics/eval_idefics.py", line 20, in <module>
-    clip_model, transform = clip.load("ViT-B/32", device=device, jit=False)
-NameError: name 'clip' is not defined

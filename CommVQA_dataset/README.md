@@ -11,9 +11,7 @@ The annotations are stored in this format:
     "filename": {filename},
     "description": {description},
     "context": {context},
-    "answers": [
-
-    ]
+    "answers": [...]
   },
 ...
 ]

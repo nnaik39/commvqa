@@ -74,7 +74,7 @@ def caption_image(image_file, prompt):
     return image, output
 
 results = []
-f = open('../dataset_annotations_cleaned.json')
+f = open('../CommVQA_dataset/annotations.json')
 data = json.load(f)
 
 parser = argparse.ArgumentParser(description='Optional app description')
@@ -84,8 +84,6 @@ parser.add_argument('--writefile', type=str,
 parser.add_argument('--generation_length', type=int,
                     help='A required integer positional argument',
                     default=21)
-
-parser.add_argument('--per_context_scores', action='store_true')
 
 parser.add_argument('--context_description', action='store_true')
 

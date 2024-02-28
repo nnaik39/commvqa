@@ -1,19 +1,17 @@
-# CommVQA
+# CommVQA: Situating Visual Question Answering in Communicative Contexts
 
-This repository hosts all code and data for the paper CommVQA: Situating Visual Question Answering in Communicative Contexts (Arxiv, 2024).
+This is the official Github repository for our paper CommVQA: Situating Visual Question Answering in Communicative Contexts (Arxiv, 2024). We provide the code and data necessary to replicate our results.
 
-## Dataset Download
+## Downloading the CommVQA Dataset
+CommVQA is a dataset introduced in our paper and contains Wikipedia images with their respective captions, alt descriptions and the broader context the images are situated in.
 
-## Model Experiments
-To replicate model experiments in the paper, please navigate to
+For details on downloading CommVQA, navigate to Concadia_dataset/.
 
-## Data Collection Interfaces 
-
-To view the data collection interfaces, please refer to the links below.
+## Reproducing Section 4: Model Experiments
+Please navigate to models/ for more details.
 
 ## Citation
 If you find this repo or the paper useful in your research, please feel free to cite our paper:
-
 ```
 @inproceedings{Naik-etal:2024,
     author = {Naik, Nandita and Potts, Christopher and Kreiss, Elisa},

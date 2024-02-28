@@ -8,8 +8,12 @@ The annotations are stored in this format:
 {
 "images": [
   {
-    "filename": FILENAME,
-"description": description
+    "filename": {filename},
+    "description": {description},
+    "context": {context},
+    "answers": [
+
+    ]
   },
 ...
 ]

@@ -1,9 +1,9 @@
 # CommVQA: Situating Visual Question Answering in Communicative Contexts
 
-This is the official Github repository for our paper [CommVQA: Situating Visual Question Answering in Communicative Contexts (Arxiv, 2024)](https://arxiv.org/abs/2402.15002). We provide the code and data necessary to replicate our results.
+This is the official Github repository for our paper [CommVQA: Situating Visual Question Answering in Communicative Contexts (Arxiv, 2024)](https://arxiv.org/abs/2402.15002). We provide the code and data necessary to replicate our results. If you experience any issues, please email nanditan (at) cs.stanford.edu.
 
 ## Downloading the CommVQA Dataset
-CommVQA, the VQA dataset introduced in our paper, consists of images, descriptions, contexts, questions, and a set of sample answers.
+CommVQA, the VQA dataset introduced in our paper, consists of images, descriptions, contexts, questions, and a set of answers.
 
 For details on downloading CommVQA, navigate to CommVQA_dataset/.
 

@@ -19,4 +19,3 @@ If you find this repo or the paper useful in your research, please feel free to 
 	title = {{CommVQA}: Situating Visual Question Answering in Communicative Contexts},
 	url = {https://arxiv.org/abs/2402.15002},
 	year = {2024}}
-```

@@ -1,6 +1,5 @@
-# Taken from https://github.com/jmhessel/clipscore
+# Adapted from https://github.com/jmhessel/clipscore
 
-import argparse
 import clip
 import torch
 from PIL import Image
@@ -11,20 +10,14 @@ import tqdm
 import numpy as np
 import sklearn.preprocessing
 import collections
-import os
-import pathlib
-import json
-import pprint
 import warnings
 from packaging import version
 
 from pycocoevalcap.tokenizer.ptbtokenizer import PTBTokenizer
-from pycocoevalcap.spice.spice import Spice
 from pycocoevalcap.meteor.meteor import Meteor
 from pycocoevalcap.bleu.bleu import Bleu
 from pycocoevalcap.cider.cider import Cider
 from pycocoevalcap.rouge.rouge import Rouge
-from pycocoevalcap.spice.spice import Spice
 
 def get_all_metrics(refs, cands, return_per_cap=False):
     metrics = []
@@ -124,7 +117,7 @@ def extract_all_captions(captions, model, device, batch_size=256, num_workers=8)
         batch_size=batch_size, num_workers=num_workers, shuffle=False)
     all_text_features = []
     with torch.no_grad():
-        for b in tqdm.tqdm(data):
+        for b in data:
             b = b['caption'].to(device)
             all_text_features.append(model.encode_text(b).cpu().numpy())
     all_text_features = np.vstack(all_text_features)
@@ -137,7 +130,7 @@ def extract_all_images(images, model, device, batch_size=64, num_workers=8):
         batch_size=batch_size, num_workers=num_workers, shuffle=False)
     all_image_features = []
     with torch.no_grad():
-        for b in tqdm.tqdm(data):
+        for b in data:
             b = b['image'].to(device)
             if device == 'cuda':
                 b = b.to(torch.float16)
